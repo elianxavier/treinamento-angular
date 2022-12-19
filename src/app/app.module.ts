@@ -7,6 +7,9 @@ import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { CidadesComponent } from "./pages/cidades/cidades.component";
 import { HomeComponent } from "./pages/home/home.component";
+import { CardComponent } from './components/card/card.component';
+import { CardPrincipalComponent } from './components/card-principal/card-principal.component';
+import { CardLateralComponent } from './components/card-lateral/card-lateral.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { HomeComponent } from "./pages/home/home.component";
     FooterComponent,
     CidadesComponent,
     HomeComponent,
+    CardComponent,
+    CardPrincipalComponent,
+    CardLateralComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

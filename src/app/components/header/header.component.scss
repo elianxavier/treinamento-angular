@@ -1,106 +1,30 @@
-header {
-  padding: 0;
-}
 
-.header-nav {
-  background: var(---red);
+img{
+  width: 100px;
+}
+.phrase{
+  margin-left: 15%
+}
+.container-social-icons{
+  margin-right: 5%;
+}
+.social-icons{
+  list-style-type: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.9rem 12.2rem;
-
-  > a {
-    flex-grow: 0;
-  }
-
-  > span {
-    color: var(---white);
-    flex-grow: 1;
-    padding-left: 10rem;
-  }
+  flex-direction: row;  
 }
-
-a {
-  display: flex;
-  flex-direction: column;
-  span {
-    font-family: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
-    color: white;
-    font-size: 0.8rem;
-  }
+.first-navbar{
+  background-color: #d54343;
 }
-
-img {
-  width: 17.5rem;
+.second-navbar{
+  background-color: #DCDCDC;
 }
-
-.social-networks {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  img {
-    width: 3.227rem;
-  }
+.icon-section{
+  margin-left: 25%;
 }
-
-.navbar {
-  background: var(---gray100);
-  padding: 0.3rem 12.2rem;
+.icon-face{
+  margin-right: 10%;
 }
-
-.border-nav {
-  // .border {
-
-  border-right: 0.1rem solid #929292;
-  border-left: 0.1rem solid #929292;
-  // height: 35px;
-  // padding: 0;
-  // margin: 0;
-
-  // }
-  // }
+.icon-twitter{
+  margin-right: 10%;
 }
-
-// .options-navbar {
-//   background: var(---gray100);
-//   height: 77px;
-//   nav {
-//     ul {
-//       display: flex;
-//       flex-direction: row;
-//       list-style-type: none;
-//       li {
-//         a {
-//           color: var(---black);
-//           text-decoration: none;
-//           font-size: 1.6rem;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// options-navbar {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   align-items: center;
-//   padding: 1.9rem 12.2rem;
-// }
-
-// .navbar {
-//   padding: 0;
-// }
-
-// .container-fluid {
-//   margin-top: 0;
-//   height: 77px;
-//   background: var(---gray100);
-//   display: flex;
-//   flex-direction: row;
-// }
-
-// .collapsed {
-//   // align-items: center;
-// }
