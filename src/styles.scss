@@ -5,12 +5,19 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  // font-family
 }
 
 :root {
   font-size: 62.5%;
+  ---black: #231f20;
+  ---red: #c42d34;
+  ---white: #fff;
+  ---gray100: #e7e2df;
   //   text-size-adjust: 100%;
 }
+html,
 body {
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
