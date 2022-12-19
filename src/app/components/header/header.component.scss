@@ -34,17 +34,23 @@ img {
 .second-navbar {
   padding: 1rem 10.2rem;
   background-color: var(---gray100);
-  // display: flex;
-  // flex-direction: column;
+
   .social-icons {
+    margin-bottom: 0;
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
   }
   a {
     text-decoration: none;
     color: var(---black);
+    display: flex;
+    border-bottom: 0.5rem solid transparent;
+  }
+  a:hover {
+    border-bottom: 0.5rem solid var(---red);
   }
 }
 .icon-section {
