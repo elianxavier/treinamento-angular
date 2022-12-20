@@ -1,3 +1,37 @@
-.card-img-top{
-    padding: 15px;
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0.2rem 0.2rem 0.5rem var(---black);
+  width: 29.5rem;
+  // height: 30.2rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+.line {
+  color: black;
+}
+
+.card-img-top {
+  padding: 15px;
+  //   width: 20rem;
+  //   border-top: 0.3rem solid var(---gray100);
+  //   border-top-width: max();
+  //   border-bottom: 0.2rem solid var(---gray100);
+}
+
+.call-to-action {
+  font-size: 1.8rem;
+}
+a {
+  color: var(---red);
+  text-decoration: none;
 }
