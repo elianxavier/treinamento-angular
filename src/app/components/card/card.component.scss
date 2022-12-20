@@ -1,9 +1,15 @@
-.card{
-    border: none;
+.card {
+  // width: 321px;
+  border: none;
 }
-.card-title{
-    color: red;
+.card-title {
+  color: red;
 }
-.card-text{
-    font-weight: bold;
+.card-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 20px;
 }

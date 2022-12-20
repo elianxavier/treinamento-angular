@@ -1,5 +1,11 @@
-.economy {
-  padding-top: 10rem;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  padding: 20px;
 }
 
 h1 {
