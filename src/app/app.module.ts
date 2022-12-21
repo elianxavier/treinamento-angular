@@ -11,6 +11,7 @@ import { HomeComponent } from "./pages/home/home.component";
 import { CardComponent } from './components/card/card.component';
 import { CardPrincipalComponent } from './components/card-principal/card-principal.component';
 import { CardLateralComponent } from './components/card-lateral/card-lateral.component';
+import { CnnComponent } from './pages/cnn/cnn.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { CardLateralComponent } from './components/card-lateral/card-lateral.com
     CardComponent,
     CardPrincipalComponent,
     CardLateralComponent,
+    CnnComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
