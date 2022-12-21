@@ -42,15 +42,9 @@
   </div>
   <div class="container-fluid second-navbar">
     <ul class="social-icons">
-      <li class="icon-section"><a href="#">Cidade</a></li>
-      <li class="icon-section"><a href="#">Política</a></li>
-      <li class="icon-section"><a href="#">Economia</a></li>
-      <li class="icon-section"><a href="#">Segurança</a></li>
-      <li class="icon-section"><a href="#">Educação</a></li>
-      <li class="icon-section"><a href="#">Esporte CN</a></li>
-      <li class="icon-section"><a href="#">Memória</a></li>
-      <li class="icon-section"><a href="#">CN Social</a></li>
-      <li class="icon-section"><a href="#">Contato</a></li>
+      <li class="icon-section" *ngFor="let page of pages">
+        <a [routerLink]="['/cnn', {page: page.name}]">{{page.name}}</a>
+      </li>      
       <li class="icon-section">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
           viewBox="0 0 16 16">
