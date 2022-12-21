@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-            <app-card title="Vivo apresenta instabilidades para alguns usuários." image="../../../assets/img/vivo2.png"
-                tag="Fora do ar!"></app-card>
+            <app-card [routerLink]="['/noticia']" title="Vivo apresenta instabilidades para alguns usuários."
+                image="../../../assets/img/vivo2.png" tag="Fora do ar!"></app-card>
             <app-card title="App Contratei ganha prêmio da Google Play Store" image="../../../assets/img/contratei.png"
                 tag="Tocantins"></app-card>
         </div>
@@ -34,8 +34,28 @@
                 title="Tocantins: Redução alíquota de ICMS de gado bovino"></app-card>
         </div>
         <div class="col-md-3 d-flex flex-column">
-            <app-card-lateral title="Economia" image="../../../assets/img/economia.png" heightImage="280"
+            <app-card-lateral title="Economia" image="../../../assets/img/economia.png" heightImage="210"
                 callToAction="Ver mais"></app-card-lateral>
         </div>
     </div>
+
+    <div class="row educacao">
+        <h1>Educação</h1>
+        <div class="col-md-3">
+            <app-card image="../../../assets/img/sala.png" title="Educação: faça a rematrícula"></app-card>
+        </div>
+        <div class="col-md-3">
+            <app-card image="../../../assets/img/gov.png" title="Governo: Bloqueio de verbas"></app-card>
+        </div>
+        <div class="col-md-3">
+            <app-card image="../../../assets/img/protesto.png" title="MEC: Protestos contra cortes"></app-card>
+        </div>
+        <div class="col-md-3 d-flex flex-column">
+            <app-card-lateral title="Previsão do Tempo" image="../../../assets/img/previsao.png" heightImage="140"
+                callToAction="Ver previsão completa "></app-card-lateral>
+        </div>
+    </div>
+    <app-news-letter>
+
+    </app-news-letter>
 </div>

@@ -12,6 +12,8 @@ import { CardComponent } from './components/card/card.component';
 import { CardPrincipalComponent } from './components/card-principal/card-principal.component';
 import { CardLateralComponent } from './components/card-lateral/card-lateral.component';
 import { CnnComponent } from './pages/cnn/cnn.component';
+import { NoticiaComponent } from './pages/noticia/noticia.component';
+import { NewsLetterComponent } from './components/news-letter/news-letter.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { CnnComponent } from './pages/cnn/cnn.component';
     CardPrincipalComponent,
     CardLateralComponent,
     CnnComponent,
+    NoticiaComponent,
+    NewsLetterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

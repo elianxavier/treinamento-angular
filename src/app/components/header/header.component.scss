@@ -13,9 +13,6 @@ img {
 .navbar {
   padding: 0;
 }
-.phrase {
-  // margin-left: 15%;
-}
 .container-social-icons {
   // margin-right: 5%;
   .social-icons {
@@ -55,12 +52,15 @@ img {
     border-bottom: 0.5rem solid var(---red);
   }
 }
-.icon-section {
-  // margin-left: 25%;
-}
-.icon-face {
-  // margin-right: 10%;
-}
-.icon-twitter {
-  // margin-right: 10%;
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
 }

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  //   border: 1px solid black;
+  width: 50%;
+  padding: 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0.2rem 0.2rem 0.5rem var(---black);
+  .news {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background: var(---red);
+    border-radius: 10px 0 0 10px;
+    width: 40rem;
+    height: 100%m;
+    padding: 1rem;
+    span {
+      text-align: center;
+    }
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
